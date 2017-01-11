@@ -36,6 +36,13 @@
  */
 - (void)willLeaveApplicationFromNativeAd:(MPNativeAd *)nativeAd;
 
+/**
+ * Sent when the SDK is about to notify MoPub of an impression
+ *
+ * @param nativeAd The native ad sending the message.
+ */
+- (void)willTrackImpressionForNativeAd:(MPNativeAd *)nativeAd;
+
 @required
 
 /** @name Managing Modal Content Presentation */
